@@ -13,8 +13,7 @@ chmod 400 default-ec2.pem  ----> Give read only permission to only owner
 
 provider "aws" {
     region = "us-east-1"
-    access_key = "AKIATZTTO535DWOIGFI3"
-    secret_key = "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"
+
     }
 
 # Create VPC 
